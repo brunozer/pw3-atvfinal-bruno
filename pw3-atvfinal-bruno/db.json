@@ -1,0 +1,8 @@
+{
+    "turma": [],
+    "sigla": [
+        { "id": 1, "name": "1ºDS" },
+        { "id": 2, "name": "2ºDS" },
+        { "id": 3, "name": "3ºDS" }
+    ]
+}
