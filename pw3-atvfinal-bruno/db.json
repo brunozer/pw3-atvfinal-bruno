@@ -1,8 +1,26 @@
 {
-    "turma": [],
-    "sigla": [
-        { "id": 1, "name": "1ºDS" },
-        { "id": 2, "name": "2ºDS" },
-        { "id": 3, "name": "3ºDS" }
-    ]
+  "turma": [
+    {
+      "id": "d43d",
+      "sigla": {
+        "id": "1",
+        "sigla": "1ºDS"
+      },
+      "nome_turma": "teste"
+    }
+  ],
+  "sigla": [
+    {
+      "id": "1",
+      "sigla": "1ºDS"
+    },
+    {
+      "id": "2",
+      "sigla": "2ºDS"
+    },
+    {
+      "id": "3",
+      "sigla": "3ºDS"
+    }
+  ]
 }

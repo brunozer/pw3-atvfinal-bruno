@@ -3,12 +3,18 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  align-content: center;
   padding: 4em;
   background-color: black;
 }
 .novoTurma_container h1 {
   font-size: 50rem;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
+}
+
+form {
+  width: 320px;
 }
