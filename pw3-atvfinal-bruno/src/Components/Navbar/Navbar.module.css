@@ -1,0 +1,20 @@
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    padding: .5rem;
+    background-color: lightblue;
+    border-radius: 1rem;
+    margin-right: 1em;
+}
+
+.item a {
+   text-decoration: none;
+}
+.item a:hover {
+    color: #7733ff;
+}   

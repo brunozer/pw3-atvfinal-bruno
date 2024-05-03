@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./select.module.css";
-function Select({ text, name, options, handlerOnChange, value }) {
+import "./select.module.css";
+
+export default function Select({ text, name, option, handlerOnChange }) {
   return (
-    <div className={styles.form_control}>
+    <div className="form_control">
       <label htmlFor={name}>{text}</label>
-      <select name={name} id={name} onChange={handlerOnChange}>
-        <option value="">selecione uma sigla</option>
-        {options.map((opt) => (
+      <select onChange={handlerOnChange}>
+        <option value={null}>Selecione uma turma...</option>
+        {option.map((opt) => (
           <option key={opt.id} value={opt.id}>
             {opt.sigla}
           </option>
@@ -15,5 +16,3 @@ function Select({ text, name, options, handlerOnChange, value }) {
     </div>
   );
 }
-
-export default Select;

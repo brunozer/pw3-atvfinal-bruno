@@ -1,8 +1,16 @@
 import React from "react";
-import styles from "./input.module.css";
-function Input({ type, text, name, placeholder, handlerOnChange, value }) {
+import "./input.module.css";
+
+export default function Input({
+  type,
+  text,
+  name,
+  placeholder,
+  handlerOnChange,
+  value,
+}) {
   return (
-    <div className={styles.form_control}>
+    <div className="form_control">
       <label htmlFor={name}>{text}</label>
       <input
         type={type}
@@ -14,5 +22,3 @@ function Input({ type, text, name, placeholder, handlerOnChange, value }) {
     </div>
   );
 }
-
-export default Input;
