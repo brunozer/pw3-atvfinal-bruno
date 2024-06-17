@@ -1,32 +1,8 @@
 {
   "turma": [
     {
-      "id": "ee13",
-      "sigla": {
-        "id": "1",
-        "sigla": "1ºDS"
-      },
-      "turma": "teste"
-    },
-    {
-      "id": "fc58",
-      "turma": "teste",
-      "sigla": {
-        "id": "1",
-        "sigla": "1ºDS"
-      }
-    },
-    {
-      "id": "4ba6",
-      "turma": "outr",
-      "sigla": {
-        "id": "2",
-        "sigla": "2ºDS"
-      }
-    },
-    {
-      "id": "66ce",
-      "turma": "teste",
+      "id": "bbdb",
+      "turma": "teste2",
       "sigla": {
         "id": "1",
         "sigla": "1ºDS"
